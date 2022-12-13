@@ -1,0 +1,9 @@
+[user]
+	email = yanyuxuan@cau.edu.cn
+	name = Yuxuan Yan
+[init]
+	defaultBranch = main
+[core]
+	editor = vim
+[merge]
+	tool = kdiff3

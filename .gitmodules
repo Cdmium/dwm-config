@@ -1,0 +1,12 @@
+[submodule "dwm"]
+	path = dwm
+	url = github.com:Cdmium/dwm.git
+[submodule "st"]
+	path = st
+	url = github.com:Cdmium/st.git
+[submodule "dwmblocks-async"]
+	path = dwmblocks-async
+	url = github.com:Cdmium/dwmblocks-async.git
+[submodule "dmenu"]
+	path = dmenu
+	url = github.com:Cdmium/dmenu.git

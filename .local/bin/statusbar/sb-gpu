@@ -1,0 +1,13 @@
+#!/bin/sh
+
+case $BLOCK_BUTTON in
+	1) "$TERMINAL" -e nvidia-smi -l=1 ;;
+#	3) notify-send "💽 Disk module" "\- Shows used hard drive space.
+# - Click to show all disk info." ;;
+	6) "$TERMINAL" -e "$EDITOR" "$0" ;;
+esac
+
+usage=`nvidia-smi | head -n10 | tail -n1 | awk '{ print $13 }'`
+temp=`sensors | awk '/GPU:/ { print $2 }'`
+
+printf "GPU %4s %s°C\n" $usage ${temp:1:-4}

@@ -1,0 +1,13 @@
+#!/bin/sh
+
+case $BLOCK_BUTTON in
+	1) "$TERMINAL" -e htop ;;
+#	3) notify-send "💽 Disk module" "\- Shows used hard drive space.
+# - Click to show all disk info." ;;
+	6) "$TERMINAL" -e "$EDITOR" "$0" ;;
+esac
+
+usage="$[100-$(vmstat 1 2|tail -1|awk '{print $15}')]%"
+temp=`sensors | awk '/CPU:/ { print $2 }'`
+
+printf "CPU %4s %s°C" $usage ${temp:1:-4}

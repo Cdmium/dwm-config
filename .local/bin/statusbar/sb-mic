@@ -1,0 +1,25 @@
+#!/bin/sh
+
+id=`pulsemixer -l | grep Source | grep Default | awk -F"[ ,]" '{print $3}'`
+
+
+# Prints the current volume or 🔇 if muted.
+case $BLOCK_BUTTON in
+	1) "$TERMINAL" -e pulsemixer; pkill -RTMIN+4 dwmblocks ;;
+	2) pulsemixer --id $id --toggle-mute ;;
+	4) pulsemixer --id $id --change-volume +5 ;;
+	5) pulsemixer --id $id --change-volume -5 ;;
+	3) notify-send "📢 Volume module" "\- Shows volume 🔊, 🔇 if muted.
+- Middle click to mute.
+- Scroll to change." ;;
+	6) "$TERMINAL" -e "$EDITOR" "$0" ;;
+esac
+
+mute=`pulsemixer --id $id --get-mute`
+if [ $mute == 1 ]; then
+	echo "🎤Muted" && exit
+fi
+
+vol=`pulsemixer --id $id --get-volume | awk -F" " '{ print $1 }'`
+
+echo "🎤$vol%"
