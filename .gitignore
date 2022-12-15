@@ -1,2 +1,5 @@
-.config/google-chrome
-.local/share/wemeetapp
+dotfile/.config/google-chrome
+dotfile/.config/cef_user_data
+
+dotfile/.local/share
+
