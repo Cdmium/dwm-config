@@ -59,6 +59,9 @@ export PATH=$PATH:/home/cdmium/.local/bin:/home/cdmium/.local/bin/statusbar
 export TERMINAL=st
 export EDITOR=vim
 
+export _JAVA_AWT_WM_NONREPARENTING=1
+export AWT_TOOLKIT=MToolkit
+
 xinput set-prop 'Synaptics TM3276-031' 337 1
 xinput set-prop 'Synaptics TM3276-031' 360 1
 xinput set-prop 'Synaptics TM3276-031' 370 0, 0
