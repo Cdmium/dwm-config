@@ -62,11 +62,7 @@ export EDITOR=vim
 export _JAVA_AWT_WM_NONREPARENTING=1
 export AWT_TOOLKIT=MToolkit
 
-xinput set-prop 'Synaptics TM3276-031' 337 1
-xinput set-prop 'Synaptics TM3276-031' 360 1
-xinput set-prop 'Synaptics TM3276-031' 370 0, 0
-xinput set-prop 'pointer:Logitech G304' 213 1, 0, 0, 0, 1, 0, 0, 0, 2
-
+xss-lock xsecurelock &
 fcitx5 &
 numlockx &
 picom &
@@ -74,4 +70,15 @@ dwmblocks &
 
 feh --bg-fill /usr/share/backgrounds/archlinux/wave.png
 
+device=`xinput list | grep "Synaptics TM3276-031" | awk -F id= '{print $2}' | awk -F " " '{print $1}'`
+natural=`xinput list-props $device | grep 'Natural Scrolling Enabled (' | awk -F"[()]" '{print $2}'` 
+tap=`xinput list-props $device | grep 'Tapping Enabled (' | awk -F"[()]" '{print $2}'` 
+click=`xinput list-props $device | grep 'Click Method Enabled (' | awk -F"[()]" '{print $2}'` 
+xinput set-prop $device $natural 1 
+xinput set-prop $device $tap 1 
+xinput set-prop $device $click 0, 0 
+xinput set-prop 'pointer:Logitech G304' 213 1, 0, 0, 0, 1, 0, 0, 0, 2
+
 exec dwm
+
+
