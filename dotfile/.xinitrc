@@ -76,8 +76,10 @@ tap=`xinput list-props $device | grep 'Tapping Enabled (' | awk -F"[()]" '{print
 click=`xinput list-props $device | grep 'Click Method Enabled (' | awk -F"[()]" '{print $2}'` 
 xinput set-prop $device $natural 1 
 xinput set-prop $device $tap 1 
-xinput set-prop $device $click 0, 0 
-xinput set-prop 'pointer:Logitech G304' 213 1, 0, 0, 0, 1, 0, 0, 0, 2
+xinput set-prop $device $click 0, 0
+device=`xinput list | grep "Logitech G304" | grep pointer | awk -F id= '{print $2}' | awk -F " " '{print $1}'`
+coordinate=`xinput list-props $device | grep 'Coordinate Transformation Matrix (' | awk -F "[()]" '{print $2}'`
+xinput set-prop $device $coordinate 1, 0, 0, 0, 1, 0, 0, 0, 2
 
 exec dwm
 
