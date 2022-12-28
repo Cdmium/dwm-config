@@ -1,2 +1,5 @@
 [Main View]
 SplitterSizes=90,1147
+
+[PageView]
+MouseMode=TextSelect
