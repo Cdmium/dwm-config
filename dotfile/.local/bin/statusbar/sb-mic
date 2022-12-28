@@ -7,8 +7,8 @@ id=`pulsemixer -l | grep Source | grep Default | awk -F"[ ,]" '{print $3}'`
 case $BLOCK_BUTTON in
 	1) "$TERMINAL" -e pulsemixer; pkill -RTMIN+4 dwmblocks ;;
 	2) pulsemixer --id $id --toggle-mute ;;
-	4) pulsemixer --id $id --change-volume +5 ;;
-	5) pulsemixer --id $id --change-volume -5 ;;
+	4) if [ `pulsemixer --id ${id} --get-mute` = 1 ]; then pulsemixer --id $id --toggle-mute; fi; pulsemixer --id $id --change-volume +5 ;;
+	5) if [ `pulsemixer --id ${id} --get-mute` = 1 ]; then pulsemixer --id $id --toggle-mute; fi; pulsemixer --id $id --change-volume -5 ;;
 	3) notify-send "📢 Volume module" "\- Shows volume 🔊, 🔇 if muted.
 - Middle click to mute.
 - Scroll to change." ;;

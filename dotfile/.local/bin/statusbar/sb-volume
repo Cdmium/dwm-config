@@ -4,8 +4,8 @@
 case $BLOCK_BUTTON in
 	1) "$TERMINAL" -e pulsemixer; pkill -RTMIN+5 dwmblocks ;;
 	2) pulsemixer --toggle-mute ;;
-	4) pulsemixer --change-volume +5 ;;
-	5) pulsemixer --change-volume -5 ;;
+	4) if [ `pulsemixer --get-mute` = 1 ]; then pulsemixer --toggle-mute; fi; pulsemixer --change-volume +5 ;;
+	5) if [ `pulsemixer --get-mute` = 1 ]; then pulsemixer --toggle-mute; fi; pulsemixer --change-volume -5 ;;
 	3) notify-send "📢 Volume module" "\- Shows volume 🔊, 🔇 if muted.
 - Middle click to mute.
 - Scroll to change." ;;
