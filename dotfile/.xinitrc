@@ -48,21 +48,38 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
+# fcitx in all applications
 export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
 export XMODIFIERS=@im=fcitx
 export SDL_IM_MODULE=fcitx
 export INPUT_METHOD=fcitx
 
-export PATH=$PATH:/home/cdmium/.local/bin:/home/cdmium/.local/bin/statusbar
+export PATH=$PATH:/home/cdmium/.local/bin:/home/cdmium/.local/bin/statusbar:/home/cdmium/.cargo/bin
 
+# ENV for dwmblock-async
 export TERMINAL=st
 export EDITOR=vim
 
+# fix matlab compatibility issue
+export LD_PRELOAD=/lib64/libfreetype.so
 export _JAVA_AWT_WM_NONREPARENTING=1
 export AWT_TOOLKIT=MToolkit
 
-xss-lock xsecurelock &
+# xxs-lock dim and lock time configuration
+xset s 600 300
+# xset dpms 900 900 900
+xset -dpms
+# xsecurelock behaviour
+export XSECURELOCK_BLANK_DPMS_STATE=suspend
+export XSECURELOCK_SHOW_DATETIME=1
+export XSECURELOCK_DATETIME_FORMAT="%Y %b %d (%a) %H:%M:%S"
+export XSECURELOCK_BLANK_TIMEOUT=10
+
+# egui scale factor
+export WINIT_X11_SCALE_FACTOR=1
+
+xss-lock -n dim-screen.sh -- xsecurelock &
 fcitx5 &
 numlockx &
 picom &
@@ -78,9 +95,10 @@ xinput set-prop $device $natural 1
 xinput set-prop $device $tap 1 
 xinput set-prop $device $click 0, 0
 device=`xinput list | grep "Logitech G304" | grep pointer | awk -F id= '{print $2}' | awk -F " " '{print $1}'`
-coordinate=`xinput list-props $device | grep 'Coordinate Transformation Matrix (' | awk -F "[()]" '{print $2}'`
-xinput set-prop $device $coordinate 1, 0, 0, 0, 1, 0, 0, 0, 2
-
+# coordinate=`xinput list-props $device | grep 'Coordinate Transformation Matrix (' | awk -F "[()]" '{print $2}'`
+accel=`xinput list-props $device | grep 'Accel Speed (' | awk -F"[()]" '{print $2}'`
+# xinput set-prop $device $coordinate 1, 0, 0, 0, 1, 0, 0, 0, 3
+xinput set-prop $device $accel -1
 exec dwm
 
 
