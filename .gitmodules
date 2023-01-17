@@ -10,3 +10,9 @@
 [submodule "dmenu"]
 	path = dmenu
 	url = github.com:Cdmium/dmenu.git
+[submodule "clipmenu"]
+	path = clipmenu
+	url = https://github.com/cdown/clipmenu.git
+[submodule "dfm"]
+	path = dfm
+	url = https://github.com/amarakon/dfm
