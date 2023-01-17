@@ -85,6 +85,9 @@ numlockx &
 picom &
 dwmblocks &
 
+systemctl --user import-environment DISPLAY
+clipmenud &
+
 feh --bg-fill /usr/share/backgrounds/archlinux/wave.png
 
 device=`xinput list | grep "Synaptics TM3276-031" | awk -F id= '{print $2}' | awk -F " " '{print $1}'`
@@ -99,6 +102,7 @@ device=`xinput list | grep "Logitech G304" | grep pointer | awk -F id= '{print $
 accel=`xinput list-props $device | grep 'Accel Speed (' | awk -F"[()]" '{print $2}'`
 # xinput set-prop $device $coordinate 1, 0, 0, 0, 1, 0, 0, 0, 3
 xinput set-prop $device $accel -1
+
 exec dwm
 
 

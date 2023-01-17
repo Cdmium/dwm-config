@@ -1444,10 +1444,322 @@
   <resource identifier="DejaVu Math TeX Gyre" checksum="(null)">
   </resource>
 
+  <resource identifier="DejaVu Sans" checksum="(null)">
+  </resource>
+
+  <resource identifier="DejaVu Sans Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="DejaVu Sans Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="DejaVu Sans Bold Oblique Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="DejaVu Sans Bold Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="DejaVu Sans Mono" checksum="(null)">
+  </resource>
+
+  <resource identifier="DejaVu Sans Mono Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="DejaVu Sans Mono Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="DejaVu Sans Mono Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="DejaVu Sans Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="DejaVu Sans Oblique Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="DejaVu Sans Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="DejaVu Sans Ultra-Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="DejaVu Serif" checksum="(null)">
+  </resource>
+
+  <resource identifier="DejaVu Serif Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="DejaVu Serif Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="DejaVu Serif Bold Italic Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="DejaVu Serif Bold Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="DejaVu Serif Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="DejaVu Serif Italic Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="DejaVu Serif Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Droid Arabic Kufi" checksum="(null)">
+  </resource>
+
+  <resource identifier="Droid Arabic Kufi Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Droid Naskh Shift Alt" checksum="(null)">
+  </resource>
+
+  <resource identifier="Droid Sans" checksum="(null)">
+  </resource>
+
+  <resource identifier="Droid Sans Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Droid Sans Mono" checksum="(null)">
+  </resource>
+
+  <resource identifier="Droid Sans Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Droid Serif" checksum="(null)">
+  </resource>
+
+  <resource identifier="Droid Serif Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Droid Serif Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Droid Serif Italic" checksum="(null)">
+  </resource>
+
   <resource identifier="FontAwesome" checksum="(null)">
   </resource>
 
   <resource identifier="icomoon" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Bold Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Bold Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Bold Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Bold Extra-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Bold Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Bold Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Bold Ultra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Bold Ultra-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Extra-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Heavy Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Heavy Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Heavy Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Heavy Extra-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Heavy Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Heavy Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Heavy Ultra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Heavy Ultra-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Light Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Light Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Light Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Light Extra-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Light Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Light Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Light Ultra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Light Ultra-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Medium Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Medium Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Medium Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Medium Extra-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Medium Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Medium Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Medium Ultra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Medium Ultra-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Semi-Bold Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Semi-Bold Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Semi-Bold Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Semi-Bold Extra-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Semi-Bold Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Semi-Bold Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Semi-Bold Ultra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Semi-Bold Ultra-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Ultra-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Ultra-Bold Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Ultra-Bold Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Ultra-Bold Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Ultra-Bold Extra-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Ultra-Bold Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Ultra-Bold Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Ultra-Bold Ultra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Ultra-Bold Ultra-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Ultra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata Ultra-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata weight=275" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata weight=275 Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata weight=275 Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata weight=275 Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata weight=275 Extra-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata weight=275 Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata weight=275 Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata weight=275 Ultra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inconsolata weight=275 Ultra-Expanded" checksum="(null)">
   </resource>
 
   <resource identifier="JoyPixels" checksum="(null)">
@@ -1487,6 +1799,12 @@
   </resource>
 
   <resource identifier="Liberation Serif Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Ligconsolata" checksum="(null)">
+  </resource>
+
+  <resource identifier="Ligconsolata Bold" checksum="(null)">
   </resource>
 
   <resource identifier="Monospace" checksum="(null)">
