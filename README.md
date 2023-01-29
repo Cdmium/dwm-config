@@ -1,5 +1,5 @@
 # dwm-config
-Personal dwm configurei
+Personal dwm configure
 
 ## Dependencies
 ```

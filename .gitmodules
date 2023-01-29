@@ -1,15 +1,15 @@
 [submodule "dwm"]
 	path = dwm
-	url = github.com:Cdmium/dwm.git
+	url = https://github.com/Cdmium/dwm
 [submodule "st"]
 	path = st
-	url = github.com:Cdmium/st.git
+	url = https://github.com/Cdmium/st
 [submodule "dwmblocks-async"]
 	path = dwmblocks-async
-	url = github.com:Cdmium/dwmblocks-async.git
+	url = https://github.com/Cdmium/dwmblocks-async
 [submodule "dmenu"]
 	path = dmenu
-	url = github.com:Cdmium/dmenu.git
+	url = https://github.com/Cdmium/dmenu
 [submodule "clipmenu"]
 	path = clipmenu
 	url = https://github.com/cdown/clipmenu.git
