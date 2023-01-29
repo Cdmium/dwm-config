@@ -41,7 +41,7 @@
     (gimp-dock
         (side right)
         (book
-            (current-page 0)
+            (current-page 4)
             (dockable "gimp-brush-grid"
                 (tab-style icon)
                 (aux-info
@@ -56,6 +56,10 @@
                     (show-button-bar "true")))
             (dockable "gimp-document-list"
                 (tab-style icon)
+                (aux-info
+                    (show-button-bar "true")))
+            (dockable "gimp-gradient-list"
+                (tab-style preview)
                 (aux-info
                     (show-button-bar "true"))))
         (book
@@ -78,8 +82,26 @@
                     (show-button-bar "true"))))))
 (session-info "toplevel"
     (factory-entry "gimp-file-open-dialog")
-    (position 0 15)
-    (size 1231 902))
+    (position 78 87)
+    (size 1229 989))
+(session-info "toplevel"
+    (factory-entry "gimp-image-new-dialog")
+    (position 0 15))
+(session-info "toplevel"
+    (factory-entry "gimp-operation-tool-dialog")
+    (position 185 15))
+(session-info "toplevel"
+    (factory-entry "gimp-levels-tool-dialog")
+    (position 190 15)
+    (size 492 598))
+(session-info "toplevel"
+    (factory-entry "gimp-file-save-dialog")
+    (position 691 67)
+    (size 1229 989))
+(session-info "toplevel"
+    (factory-entry "gimp-file-export-dialog")
+    (position 345 53)
+    (size 1229 989))
 
 (hide-docks no)
 (single-window-mode yes)
