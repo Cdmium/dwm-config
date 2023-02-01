@@ -1,0 +1,4 @@
+[Bookmarks]
+[Recent]
+/home/cdmium/Fu_Lab/ExM/
+/tmp/

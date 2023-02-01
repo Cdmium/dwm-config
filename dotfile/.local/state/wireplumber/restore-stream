@@ -1,0 +1,5 @@
+[restore-stream]
+Output/Audio:application.name:Google\sChrome:channelMap=FL;FR;
+Output/Audio:application.name:Google\sChrome:channelVolumes=1.0;1.0;
+Output/Audio:application.name:Google\sChrome:mute=false
+Output/Audio:application.name:Google\sChrome:volume=1.0

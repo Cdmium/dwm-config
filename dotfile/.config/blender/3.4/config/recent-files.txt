@@ -1,0 +1,2 @@
+/home/cdmium/Fu_Lab/ExM/slide_cutter.blend
+/home/cdmium/Fu_Lab/ExM/slide.blend

@@ -1,24 +1,26 @@
 #!/bin/sh
 
+text=`wpctl status | grep Audio -A100 | grep Video -B100 | grep \* | head -n 1`
+id=`echo "$text" | awk -F" " '{print $3}' | sed 's/.$//'`
+
 # Prints the current volume or 🔇 if muted.
 case $BLOCK_BUTTON in
-	1) "$TERMINAL" -e pulsemixer; pkill -RTMIN+5 dwmblocks ;;
-	2) pulsemixer --toggle-mute ;;
-	4) if [ `pulsemixer --get-mute` = 1 ]; then pulsemixer --toggle-mute; fi; pulsemixer --change-volume +5 ;;
-	5) if [ `pulsemixer --get-mute` = 1 ]; then pulsemixer --toggle-mute; fi; pulsemixer --change-volume -5 ;;
+#	1) "$TERMINAL" -e pulsemixer; pkill -RTMIN+5 dwmblocks ;;
+	2) wpctl set-mute $id toggle;;
+	4) wpctl set-mute $id 0; wpctl set-volume $id 5%+ ;;
+	5) wpctl set-mute $id 0; wpctl set-volume $id 5%- ;;
 	3) notify-send "📢 Volume module" "\- Shows volume 🔊, 🔇 if muted.
 - Middle click to mute.
 - Scroll to change." ;;
 	6) "$TERMINAL" -e "$EDITOR" "$0" ;;
 esac
 
-mute=`pulsemixer --get-mute`
-if [ $mute == 1 ]; then
+mute=`echo "$text" | grep MUTED -c`
+if [ "$mute" = 1 ]; then
 	echo 🔇 && exit
 fi
 
-vol=`pulsemixer --get-volume | awk -F" " '{ print $1 }'`
-
+vol=`echo "$text" | awk '{ print substr( $0, length($0)-4, 4 ) * 100 }'`
 case 1 in
 	$((vol >= 70)) ) icon="🔊" ;;
 	$((vol >= 30)) ) icon="🔉" ;;

@@ -1,0 +1,19 @@
+#!/bin/sh
+
+if [ "$1" = "sink" ]
+then
+	text=`wpctl status | grep Audio -A100 | grep Video -B100 | grep \* | head -n 1`
+elif [ "$1" = "source" ]
+then
+	text=`wpctl status | grep Audio -A100 | grep Video -B100 | grep \* | tail -n 1`
+else 
+	exit
+fi
+id=`echo "$text" | awk -F" " '{print $3}' | sed 's/.$//'`
+if [ "$2" = "toggle" ]
+then
+	wpctl set-mute $id toggle
+else 
+	wpctl set-mute $id 0
+	wpctl set-volume $id $2
+fi
