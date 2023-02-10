@@ -15,6 +15,6 @@
 (save-color-profile yes)
 (save-thumbnail yes)
 (save-comment yes)
-(gimp-comment "Created with GIMP")
+(gimp-comment "ImageJ=1.53t\nimages=27\nchannels=3\nslices=9\nhyperstack=true\nmode=grayscale\nunit=micron\nloop=false\nmin=156.0\nmax=1528.0\n")
 
 # end of settings

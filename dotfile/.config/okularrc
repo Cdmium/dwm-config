@@ -2,8 +2,7 @@
 FullScreen=false
 
 [MainWindow]
-RestorePositionForNextInstance=false
-State=AAAA/wAAAAD9AAAAAAAAB3cAAAPpAAAABAAAAAQAAAAIAAAACPwAAAADAAAAAQAAAAEAAAAsAHEAdQBpAGMAawBBAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHICAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
+State=AAAA/wAAAAD9AAAAAAAAB3YAAAPmAAAABAAAAAQAAAAIAAAACPwAAAADAAAAAQAAAAEAAAAsAHEAdQBpAGMAawBBAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHICAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
 ToolBarsMovable=Disabled
 eDP-1=eDP-1
 eDP-1 Height 1920x1080 eDP-1=1051
@@ -17,28 +16,28 @@ eDP1 HDMI2 Width 1915x1077 eDP1=1911
 eDP1 HDMI2 XPosition 1915x1077 eDP1=2
 eDP1 HDMI2 YPosition 1915x1077 eDP1=17
 eDP1 Height 1920x1080 eDP1=1055
-eDP1 Width 1920x1080 eDP1=1145
-eDP1 XPosition 1920x1080 eDP1=5
+eDP1 Width 1920x1080 eDP1=1910
+eDP1 XPosition 1920x1080 eDP1=965
 eDP1 YPosition 1920x1080 eDP1=20
 
 [Recent Files]
-File1[$e]=$HOME/Fu_Lab/Iterative Exm/2022(bioRxiv)All-optical visualization of specific molecules in the ultrastructural context of brain tissue.pdf
-File10[$e]=$HOME/Downloads/SCEPTRE_NAR_supplementary.pdf
-File2[$e]=$HOME/Fu_Lab/Iterative Exm/2022(bioRxiv)Nanoscopy of organelles and tissues with iterative ultrastructure expansion microscopy (iU-ExM).pdf
-File3[$e]=$HOME/Fu_Lab/Iterative Exm/2022(Nat Methods)Visualizing the native cellular organization by coupling cryofixation with expansion microscopy (Cryo-ExM).pdf
-File4[$e]=$HOME/Fu_Lab/Iterative Exm/2022(elife)Visualizing cellular and tissue ultrastructure using Ten-fold Robust Expansion Microscopy (TREx).pdf
-File5[$e]=$HOME/Fu_Lab/Iterative Exm/Expansion microscipy of C. elegans eLife 2020.pdf
-File6[$e]=$HOME/Fu_Lab/Iterative Exm/A highly homogeneous polymer composed of tetrahedron-like monomers for high-isotropy expansion microscopy Nat Nanotechnol 2021.pdf
-File7[$e]=$HOME/Fu_Lab/Iterative Exm/Prospects and limitations of expansion microscopy in chromatin ultrastructure determination Chromosomes Res 2020.pdf
-File8[$e]=/run/media/cdmium/Drosophila/backup20221113/Fu_Lab/nine_fold_recognition_Sep18/Multiresolution_Rotational_Symmetry_Detection_via_.pdf
-File9[$e]=$HOME/Documents/WeChat Files/wxid_0ifwlw4yp20k22/FileStorage/File/2023-01/031002100311_34483563.pdf
-Name1[$e]=2022(bioRxiv)All-optical visualization of specific molecules in the ultrastructural context of brain tissue.pdf
-Name10[$e]=SCEPTRE_NAR_supplementary.pdf
-Name2[$e]=2022(bioRxiv)Nanoscopy of organelles and tissues with iterative ultrastructure expansion microscopy (iU-ExM).pdf
-Name3[$e]=2022(Nat Methods)Visualizing the native cellular organization by coupling cryofixation with expansion microscopy (Cryo-ExM).pdf
-Name4[$e]=2022(elife)Visualizing cellular and tissue ultrastructure using Ten-fold Robust Expansion Microscopy (TREx).pdf
-Name5[$e]=Expansion microscipy of C. elegans eLife 2020.pdf
-Name6[$e]=A highly homogeneous polymer composed of tetrahedron-like monomers for high-isotropy expansion microscopy Nat Nanotechnol 2021.pdf
-Name7[$e]=Prospects and limitations of expansion microscopy in chromatin ultrastructure determination Chromosomes Res 2020.pdf
-Name8[$e]=Multiresolution_Rotational_Symmetry_Detection_via_.pdf
-Name9[$e]=031002100311_34483563.pdf
+File1[$e]=$HOME/Fu_Lab/Iterative Exm/Prospects and limitations of expansion microscopy in chromatin ultrastructure determination Chromosomes Res 2020.pdf
+File10[$e]=$HOME/Fu_Lab/Nucleus Exm/bs.mcb.2020.05.006.pdf
+File2[$e]=/run/media/cdmium/Drosophila/backup20221113/Fu_Lab/nine_fold_recognition_Sep18/Multiresolution_Rotational_Symmetry_Detection_via_.pdf
+File3[$e]=$HOME/Documents/WeChat Files/wxid_0ifwlw4yp20k22/FileStorage/File/2023-01/031002100311_34483563.pdf
+File4[$e]=$HOME/Downloads/SCEPTRE_NAR_supplementary.pdf
+File5[$e]=$HOME/Fu_Lab/Nucleus Exm/bs.mcb.2020.06.007.pdf
+File6[$e]=$HOME/Fu_Lab/Nucleus Exm/10577_2020_Article_9637.pdf
+File7[$e]=$HOME/Fu_Lab/Iterative Exm/0003-2697%2876%2990264-5.pdf
+File8[$e]=$HOME/Fu_Lab/Iterative Exm/Iterative expansion microscopy Nat Methods 2017.pdf
+File9[$e]=$HOME/Fu_Lab/Iterative Exm/2022(bioRxiv)Nanoscopy of organelles and tissues with iterative ultrastructure expansion microscopy (iU-ExM).pdf
+Name1[$e]=Prospects and limitations of expansion microscopy in chromatin ultrastructure determination Chromosomes Res 2020.pdf
+Name10[$e]=bs.mcb.2020.05.006.pdf
+Name2[$e]=Multiresolution_Rotational_Symmetry_Detection_via_.pdf
+Name3[$e]=031002100311_34483563.pdf
+Name4[$e]=SCEPTRE_NAR_supplementary.pdf
+Name5[$e]=bs.mcb.2020.06.007.pdf
+Name6[$e]=10577_2020_Article_9637.pdf
+Name7[$e]=0003-2697%2876%2990264-5.pdf
+Name8[$e]=Iterative expansion microscopy Nat Methods 2017.pdf
+Name9[$e]=2022(bioRxiv)Nanoscopy of organelles and tissues with iterative ultrastructure expansion microscopy (iU-ExM).pdf

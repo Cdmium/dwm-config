@@ -7,6 +7,8 @@
 (fixed-rule size)
 (fixed-rule-active yes)
 (overridden-fixed-size yes)
+(foreground (color-rgb 1 1 1))
+(background (color-rgb 0 0 0))
 (pattern "Pine")
 (layer-only yes)
 

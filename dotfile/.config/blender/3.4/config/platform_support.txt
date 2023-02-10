@@ -2,3 +2,5 @@
 {Intel/Mesa Intel(R) UHD Graphics 620 (KBL GT2)/4.6 (Core Profile) Mesa 22.3.2}=SUPPORTED
 {NVIDIA Corporation/NVIDIA GeForce MX150/PCIe/SSE2/4.5.0 NVIDIA 525.78.01}=SUPPORTED
 {Intel/Mesa Intel(R) UHD Graphics 620 (KBL GT2)/4.6 (Core Profile) Mesa 22.3.3}=SUPPORTED
+{NVIDIA Corporation/NVIDIA GeForce MX150/PCIe/SSE2/4.5.0 NVIDIA 525.85.05}=SUPPORTED
+{Intel/Mesa Intel(R) UHD Graphics 620 (KBL GT2)/4.6 (Core Profile) Mesa 22.3.4}=SUPPORTED
