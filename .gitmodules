@@ -1,6 +1,6 @@
 [submodule "dwm"]
 	path = dwm
-	url = https://github.com/Cdmium/dwm
+	url = git@github.com:Cdmium/dwm.git
 [submodule "st"]
 	path = st
 	url = https://github.com/Cdmium/st
