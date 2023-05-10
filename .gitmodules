@@ -3,7 +3,7 @@
 	url = git@github.com:Cdmium/dwm.git
 [submodule "st"]
 	path = st
-	url = https://github.com/Cdmium/st
+	url = git@github.com:Cdmium/st.git 
 [submodule "dwmblocks-async"]
 	path = dwmblocks-async
 	url = https://github.com/Cdmium/dwmblocks-async

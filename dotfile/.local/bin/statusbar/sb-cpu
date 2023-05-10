@@ -8,6 +8,6 @@ case $BLOCK_BUTTON in
 esac
 
 usage="$[100-$(vmstat 1 2|tail -1|awk '{print $15}')]%"
-temp=`sensors | awk '/CPU:/ { print $2 }'`
+temp=`sensors | awk '/Package/ { print $4 }'`
 
 printf "CPU %4s %s°C" $usage ${temp:1:-4}

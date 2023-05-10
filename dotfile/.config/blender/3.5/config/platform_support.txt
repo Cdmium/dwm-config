@@ -7,3 +7,4 @@
 {Intel/Mesa Intel(R) Graphics (ADL GT2)/4.6 (Core Profile) Mesa 22.3.4}=SUPPORTED
 {NVIDIA Corporation/NVIDIA GeForce RTX 3050 Laptop GPU/PCIe/SSE2/4.5.0 NVIDIA 525.89.02}=SUPPORTED
 {Intel/Mesa Intel(R) Graphics (ADL GT2)/4.6 (Core Profile) Mesa 22.3.6}=SUPPORTED
+{Intel/Mesa Intel(R) Graphics (ADL GT2)/4.6 (Core Profile) Mesa 23.0.3}=SUPPORTED

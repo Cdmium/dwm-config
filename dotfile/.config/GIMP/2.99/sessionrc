@@ -11,12 +11,12 @@
     (size 640 480))
 (session-info "toplevel"
     (factory-entry "gimp-single-image-window")
-    (position 3 18)
-    (size 1910 1055)
+    (position 4 21)
+    (size 1270 1569)
     (open-on-exit)
     (aux-info
         (left-docks-width "339")
-        (right-docks-width "295")
+        (right-docks-width "301")
         (maximized "no"))
     (gimp-toolbox
         (side left)
@@ -100,7 +100,7 @@
     (size 1229 989))
 (session-info "toplevel"
     (factory-entry "gimp-file-export-dialog")
-    (position 355 143)
+    (position 293 404)
     (size 1209 809))
 (session-info "toplevel"
     (factory-entry "gimp-curves-tool-dialog")

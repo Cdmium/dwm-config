@@ -12,7 +12,7 @@ if [ ${usage:0:10} = 'NVIDIA-SMI' ]; then
 	echo "GPU off"
 else
 	usage=`echo "${usage}" | head -n10 | tail -n1 | awk '{ print $13 }'`
-	temp=`sensors | awk '/GPU:/ { print $2 }'`
+	temp=`sensors | grep acpitz-acpi-0 -A2 | tail -n 1 | awk '// { print $2 }'`
 
 	printf "GPU %4s %s°C\n" $usage ${temp:1:-4}
 fi

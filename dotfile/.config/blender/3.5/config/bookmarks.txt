@@ -2,7 +2,9 @@
 /home/cdmium/Fu_Lab/
 /home/cdmium/Blender/
 [Recent]
+/home/cdmium/Blender/Microscrope illustration/render/
 /home/cdmium/Blender/Microscrope illustration/
+/usr/share/fonts/noto-cjk/
 /home/cdmium/Fu_Lab/misc/A-A linker/
 /usr/share/fonts/wenquanyi/wqy-microhei/
 /home/cdmium/Blender/TubeHolder/

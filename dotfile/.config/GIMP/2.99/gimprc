@@ -24,8 +24,8 @@
     (fill-type background)
     (comment "Created with GIMP"))
 (import-raw-plug-in "${gimp_plug_in_dir}/plug-ins/file-raw-placeholder/file-raw-placeholder")
-(monitor-xresolution 143)
-(monitor-yresolution 144)
+(monitor-xresolution 189)
+(monitor-yresolution 189)
 (image-resize-fill-type white)
 (fill-options
     (style solid)
