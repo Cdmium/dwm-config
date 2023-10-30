@@ -6,13 +6,13 @@
 	url = git@github.com:Cdmium/st.git 
 [submodule "dwmblocks-async"]
 	path = dwmblocks-async
-	url = https://github.com/Cdmium/dwmblocks-async
+	url = git@github.com/Cdmium/dwmblocks-async
 [submodule "dmenu"]
 	path = dmenu
-	url = https://github.com/Cdmium/dmenu
+	url = git@github.com/Cdmium/dmenu
 [submodule "clipmenu"]
 	path = clipmenu
-	url = https://github.com/cdown/clipmenu.git
+	url = git@github.com/cdown/clipmenu.git
 [submodule "dfm"]
 	path = dfm
-	url = https://github.com/amarakon/dfm
+	url = git@github.com/amarakon/dfm
