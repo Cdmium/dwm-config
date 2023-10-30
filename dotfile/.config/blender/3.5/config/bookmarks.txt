@@ -2,11 +2,13 @@
 /home/cdmium/Fu_Lab/
 /home/cdmium/Blender/
 [Recent]
-/home/cdmium/Blender/Microscrope illustration/render/
-/home/cdmium/Blender/Microscrope illustration/
-/usr/share/fonts/noto-cjk/
-/home/cdmium/Fu_Lab/misc/A-A linker/
-/usr/share/fonts/wenquanyi/wqy-microhei/
-/home/cdmium/Blender/TubeHolder/
-/home/cdmium/Fu_Lab/ExM/
+/home/cdmium/Blender/Nuclear pore complex/
+/home/cdmium/Blender/blender-3.5.1-linux-x64/3.5/datafiles/studiolights/world/
+/home/cdmium/Nuclear pore complex/
+/home/cdmium/Blender/Centrosome Model 230614/render_230615_4/
+/home/cdmium/Blender/Centrosome Model 230614/
+/home/cdmium/Blender/Centrosome Model 230614/render_230615_3/
 /tmp/
+/home/cdmium/Blender/Centrosome Model 230614/textures/
+/home/cdmium/Blender/Centrosome Model 230614/reference/
+/home/cdmium/Downloads/

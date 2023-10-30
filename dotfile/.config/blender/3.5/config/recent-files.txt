@@ -1,3 +1,7 @@
+/home/cdmium/Blender/Nuclear pore complex/nuclear pore complex.blend
+/home/cdmium/Nuclear pore complex/nuclear pore complex.blend
+/home/cdmium/Blender/Centrosome Model 230614/model 230614 version 2.blend
+/home/cdmium/Blender/Centrosome Model 230614/model 230614.blend
 /home/cdmium/Blender/Microscrope illustration/Bright Field.blend
 /home/cdmium/Fu_Lab/misc/A-A linker/draw.blend
 /home/cdmium/Blender/TubeHolder/tube holder.blend

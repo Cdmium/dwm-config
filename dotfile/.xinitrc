@@ -104,6 +104,8 @@ accel=`xinput list-props $device | grep 'Accel Speed (' | awk -F"[()]" '{print $
 # xinput set-prop $device $coordinate 1, 0, 0, 0, 1, 0, 0, 0, 3
 xinput set-prop $device $accel -0.5
 
+xrandr --output eDP-1 --mode 2560x1600 --rate 60.00
+
 exec dwm
 
 

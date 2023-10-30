@@ -4,8 +4,8 @@
  </paths>
  <sounddirs/>
  <dictionaryOrder id="0" name="">
-  <dictionary name="American Heritage English-Chinese Dictionary">fe3cf87a70e605d77570107de1b5a0c9</dictionary>
   <dictionary name="Merriam-Webster's Collegiate Dictionary">fb07074974cb55d452edb0dfd0a0d927</dictionary>
+  <dictionary name="American Heritage English-Chinese Dictionary">fe3cf87a70e605d77570107de1b5a0c9</dictionary>
   <dictionary name="Dictionary of American Slang and Colloquial Expressions">8e75f57c8005b69177fa75fc49637f43</dictionary>
   <dictionary name="[英-英] ◆美国习惯用语词典【7klrc7原创】【版本日期20090128】,McGraw Hills Dictionary of American Idioms and Phrasal Verbs,7klrc7,20090128">710c1d1b36e713731ac49ab1e032ff66</dictionary>
   <dictionary name="[英-英] ◆美语成语词典American Idioms【Tobyluo原创】【版本日期20080815】">d25943060c138bd1eb4ec49235cfe4be</dictionary>
@@ -40,6 +40,10 @@
    <enableHiragana>1</enableHiragana>
    <enableKatakana>1</enableKatakana>
   </romaji>
+  <customtrans>
+   <enable>0</enable>
+   <context></context>
+  </customtrans>
  </transliteration>
  <lingua>
   <enable>1</enable>
@@ -82,8 +86,10 @@
  <popupMutedDictionaries/>
  <preferences>
   <interfaceLanguage></interfaceLanguage>
-  <webFontFamily>Noto Sans CJK SC</webFontFamily>
+  <interfaceFont></interfaceFont>
+  <customFonts monospace="" sans-serif="" serif="" standard=""/>
   <displayStyle>modern</displayStyle>
+  <interfaceStyle></interfaceStyle>
   <newTabsOpenAfterCurrentOne>0</newTabsOpenAfterCurrentOne>
   <newTabsOpenInBackground>1</newTabsOpenInBackground>
   <hideSingleTab>0</hideSingleTab>
@@ -99,7 +105,7 @@
   <escKeyHidesMainWindow>0</escKeyHidesMainWindow>
   <darkMode>0</darkMode>
   <darkReaderMode>0</darkReaderMode>
-  <zoomFactor>0.8</zoomFactor>
+  <zoomFactor>0.9</zoomFactor>
   <helpZoomFactor>1</helpZoomFactor>
   <wordsZoomLevel>0</wordsZoomLevel>
   <enableMainWindowHotkey>1</enableMainWindowHotkey>
@@ -117,10 +123,11 @@
   <trackClipboardScan>0</trackClipboardScan>
   <trackSelectionScan>0</trackSelectionScan>
   <showScanFlag>0</showScanFlag>
+  <selectionChangeDelayTimer>0</selectionChangeDelayTimer>
   <pronounceOnLoadMain>0</pronounceOnLoadMain>
   <pronounceOnLoadPopup>0</pronounceOnLoadPopup>
-  <useInternalPlayer>1</useInternalPlayer>
-  <internalPlayerBackend>FFmpeg</internalPlayerBackend>
+  <useInternalPlayer>0</useInternalPlayer>
+  <internalPlayerBackend>Qt Multimedia</internalPlayerBackend>
   <audioPlaybackProgram>mplayer</audioPlaybackProgram>
   <alwaysOnTop>0</alwaysOnTop>
   <searchInDock>0</searchInDock>
@@ -150,6 +157,8 @@
   <hideGoldenDictHeader>0</hideGoldenDictHeader>
   <maxNetworkCacheSize>50</maxNetworkCacheSize>
   <clearNetworkCacheOnExit>1</clearNetworkCacheOnExit>
+  <removeInvalidIndexOnExit>0</removeInvalidIndexOnExit>
+  <dictionaryDebug>0</dictionaryDebug>
   <maxStringsInHistory>500</maxStringsInHistory>
   <storeHistory>1</storeHistory>
   <alwaysExpandOptionalParts>0</alwaysExpandOptionalParts>
@@ -164,33 +173,26 @@
   <raiseWindowOnSearch>1</raiseWindowOnSearch>
   <fullTextSearch>
    <searchMode>0</searchMode>
-   <matchCase>0</matchCase>
-   <maxArticlesPerDictionary>100</maxArticlesPerDictionary>
-   <maxDistanceBetweenWords>2</maxDistanceBetweenWords>
-   <useMaxArticlesPerDictionary>0</useMaxArticlesPerDictionary>
-   <useMaxDistanceBetweenWords>1</useMaxDistanceBetweenWords>
    <dialogGeometry></dialogGeometry>
    <disabledTypes></disabledTypes>
    <enabled>1</enabled>
-   <ignoreWordsOrder>0</ignoreWordsOrder>
-   <ignoreDiacritics>0</ignoreDiacritics>
+   <enablePosition>0</enablePosition>
    <maxDictionarySize>0</maxDictionarySize>
+   <parallelThreads>6</parallelThreads>
   </fullTextSearch>
  </preferences>
  <lastMainGroupId>0</lastMainGroupId>
  <lastPopupGroupId>0</lastPopupGroupId>
- <popupWindowState>AAAA/wAAAAH9AAAAAAAAAgUAAAGTAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAQAAAAEAAAAaAGQAaQBjAHQAaQBvAG4AYQByAHkAQgBhAHIDAAAAAP////8AAAAAAAAAAA==</popupWindowState>
- <popupWindowGeometry>AdnQywADAAAAAAOfAAAC+QAABcsAAASLAAADnwAAAvkAAAXLAAAEiwAAAAAAAAAACgAAAAOfAAAC+QAABcsAAASL</popupWindowGeometry>
+ <popupWindowState>AAAA/wAAAAD9AAAAAAAAAgUAAAGTAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAQAAAAEAAAAaAGQAaQBjAHQAaQBvAG4AYQByAHkAQgBhAHIDAAAAAP////8AAAAAAAAAAA==</popupWindowState>
+ <popupWindowGeometry>AdnQywADAAAAAAGyAAAAxwAAA94AAAJZAAABsgAAAMcAAAPeAAACWQAAAAAAAAAACgAAAAGyAAAAxwAAA94AAAJZ</popupWindowGeometry>
  <pinPopupWindow>0</pinPopupWindow>
  <popupWindowAlwaysOnTop>0</popupWindowAlwaysOnTop>
- <mainWindowState>AAAA/wAAAAH9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAfsAAAAUAHMAZQBhAHIAYwBoAFAAYQBuAGUAAAAAAP////8AAACJAP///wAAAAEAAACSAAAF5PwCAAAAA/sAAAASAGQAaQBjAHQAcwBQAGEAbgBlAQAAAD0AAAHzAAAAYwD////7AAAAGgBmAGEAdgBvAHIAaQB0AGUAcwBQAGEAbgBlAQAAAjYAAAHyAAAAYwD////7AAAAFgBoAGkAcwB0AG8AcgB5AFAAYQBuAGUBAAAELgAAAfMAAABjAP///wAACVoAAAXkAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAUAG4AYQB2AFQAbwBvAGwAYgBhAHIBAAAAAP////8AAAAAAAAAAAAAABoAZABpAGMAdABpAG8AbgBhAHIAeQBCAGEAcgEAAAIe/////wAAAAAAAAAA</mainWindowState>
+ <mainWindowState>AAAA/wAAAAD9AAAAAgAAAAAAAABOAAAF5vwCAAAAAfsAAAAUAHMAZQBhAHIAYwBoAFAAYQBuAGUAAAAAPQAABeYAAACKAP///wAAAAEAAADMAAAF5PwCAAAAA/sAAAASAGQAaQBjAHQAcwBQAGEAbgBlAQAAAD0AAAHyAAAAYwD////7AAAAGgBmAGEAdgBvAHIAaQB0AGUAcwBQAGEAbgBlAQAAAjUAAAH0AAAAYwD////7AAAAFgBoAGkAcwB0AG8AcgB5AFAAYQBuAGUBAAAELwAAAfIAAABjAP///wAACSAAAAXkAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAUAG4AYQB2AFQAbwBvAGwAYgBhAHIBAAAAAP////8AAAAAAAAAAAAAABoAZABpAGMAdABpAG8AbgBhAHIAeQBCAGEAcgEAAAIe/////wAAAAAAAAAA</mainWindowState>
  <mainWindowGeometry>AdnQywADAAAAAAAEAAAAFQAACfsAAAY7AAAABwAAABgAAAn4AAAGOAAAAAAAAAAACgAAAAAHAAAAGAAACfgAAAY4</mainWindowGeometry>
- <helpWindowGeometry>AdnQywADAAAAAAKQAAABQAAABe4AAANTAAACkgAAAUIAAAXsAAADUQAAAAAAAAAAB4AAAAKSAAABQgAABewAAANR</helpWindowGeometry>
- <helpSplitterState>AAAA/wAAAAEAAAACAAABBAAABAAB/////wEAAAABAA==</helpSplitterState>
  <dictInfoGeometry></dictInfoGeometry>
  <inspectorGeometry></inspectorGeometry>
- <dictionariesDialogGeometry>AdnQywADAAAAAAL/AAACHgAABwQAAAQ3AAADAgAAAiEAAAcBAAAENAAAAAAAAAAACf8AAAMCAAACIQAABwEAAAQ0</dictionariesDialogGeometry>
- <timeForNewReleaseCheck>2023-05-11T14:58:41</timeForNewReleaseCheck>
+ <dictionariesDialogGeometry>AdnQywADAAAAAAMCAAACIQAABwcAAAQ6AAADBQAAAiQAAAcEAAAENwAAAAAAAAAACgAAAAMFAAACJAAABwQAAAQ3</dictionariesDialogGeometry>
+ <timeForNewReleaseCheck>2023-07-15T14:04:52</timeForNewReleaseCheck>
  <skippedRelease>22.11.24-alpha.221216.af973764</skippedRelease>
  <showingDictBarNames>0</showingDictBarNames>
  <usingSmallIconsInToolbars>0</usingSmallIconsInToolbars>

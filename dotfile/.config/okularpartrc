@@ -6,4 +6,4 @@ ShowLeftPanel=false
 SplitterSizes=312,1594
 
 [PageView]
-MouseMode=RectSelect
+MouseMode=TextSelect

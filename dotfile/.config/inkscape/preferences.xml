@@ -3,7 +3,8 @@
    version="1"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd">
   <group
-     id="window">
+     id="window"
+     interface_mode="0">
     <group
        id="menu"
        state="1" />
@@ -118,8 +119,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="795.923139917569"
-         height="791.366668460876" />
+         width="132.283464566931"
+         height="132.283464566929" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
@@ -155,8 +156,8 @@
          end="0"
          start="0"
          usecurrent="1"
-         rx="18.8976377952756"
-         ry="18.8976377952756" />
+         rx="7.87316930575644"
+         ry="4.76872917235366" />
       <eventcontext
          id="star"
          magnitude="5"
@@ -315,8 +316,9 @@
        font_sample="AaBbCcIiPpQq12369$€¢?.;/()"
        show_sample_in_list="1"
        use_svg2="1"
-       style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;"
-       selcue="1" />
+       style="line-height:1.25;font-family:sans-serif;font-size:160px;text-anchor:middle;text-align:center"
+       selcue="1"
+       align_mode="0" />
     <eventcontext
        id="nodes"
        selcue="1"
@@ -332,8 +334,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="0"
-       y="0"
+       x="892.947801635677"
+       y="631.004378742688"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -537,7 +539,7 @@
        id="toolbox" />
     <group
        id="fillstroke"
-       page="2" />
+       page="1" />
     <group
        id="filtereffects" />
     <group
@@ -546,7 +548,8 @@
        id="transformation"
        applyseparately="0" />
     <group
-       id="align" />
+       id="align"
+       objects-align-to="last" />
     <group
        id="xml"
        h="500"
@@ -563,7 +566,8 @@
        state="1" />
     <group
        id="preferences"
-       state="1" />
+       state="1"
+       page="26" />
     <group
        id="gradienteditor" />
     <group
@@ -591,7 +595,7 @@
        default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path=""
+       path="/home/cdmium/Fu_Lab/Journal/super-resolution nucleoporin"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -602,16 +606,17 @@
     <group
        id="open"
        enable_preview="1"
-       path="/home/cdmium/Fu_Lab/FlyImage/" />
+       path="/home/cdmium/Fu_Lab/Skewed/output_230621/" />
     <group
        id="import"
        enable_preview="1"
-       path=""
+       path="/home/cdmium/Fu_Lab/Skewed/output_230721/"
        ask="1"
        ask_svg="1"
-       link="embed"
-       scale="auto"
-       forcexdpi="0" />
+       link="link"
+       scale="optimizeSpeed"
+       forcexdpi="0"
+       import_mode_svg="include" />
     <group
        id="debug"
        redirect="0" />
@@ -654,6 +659,9 @@
        id="undo-history" />
     <group
        id="objects" />
+    <group
+       id="layerProp"
+       addLayerPosition="1" />
   </group>
   <group
      id="printing">
@@ -665,7 +673,11 @@
   </group>
   <group
      id="options"
-     rotationlock="1">
+     rotationlock="1"
+     dpifixbackup="1"
+     dpiupdatemethod="0"
+     onimport="0"
+     displaymode="0">
     <group
        id="renderingcache"
        size="512" />
@@ -839,7 +851,8 @@
     <group
        id="maskobject"
        topmost="1"
-       remove="1" />
+       remove="1"
+       grouping="0" />
     <group
        id="blurquality"
        value="0" />
@@ -931,7 +944,8 @@
        unitType="2" />
     <group
        id="boot"
-       theme="symbolic">
+       theme="symbolic"
+       enabled="1">
       <group
          id="shown"
          ver1.2.2="1" />
@@ -940,21 +954,39 @@
        id="rendering" />
     <group
        id="snapping"
-       snap-global-toggle="1" />
+       snap-global-toggle="0" />
   </group>
   <group
      id="extensions"
      org.inkscape.output.png.inkscape.png_bitdepth="99"
      org.inkscape.output.png.inkscape.png_compression="6"
-     org.inkscape.output.png.inkscape.png_antialias="2" />
+     org.inkscape.output.png.inkscape.png_antialias="2"
+     sozi.extras.media.controls="1"
+     sozi.extras.media.loop="1"
+     org.inkscape.input.gdkpixbuf.tif.dpi="from_file"
+     org.inkscape.effect.filter.Colorize.blend1="multiply"
+     org.inkscape.effect.filter.Colorize.blend2="screen"
+     org.inkscape.effect.filter.Colorize.tab="colortab"
+     org.inkscape.effect.filter.Colorize.color="65535"
+     org.inkscape.input.gdkpixbuf.tif.scale="optimizeSpeed"
+     sozi.extras.media.width="2160"
+     sozi.extras.media.height="1080"
+     sozi.extras.media.type="video/mp4"
+     sozi.extras.media.src="render.mp4"
+     sozi.extras.media.start-frame="1"
+     sozi.extras.media.auto="1"
+     sozi.extras.media.__live_effect__="0"
+     sozi.extras.media.stop-frame="undefined"
+     org.inkscape.input.gdkpixbuf.png.scale="optimizeSpeed"
+     org.inkscape.input.gdkpixbuf.png.link="link" />
   <group
      id="desktop"
-     style="fill:#ffffff;font-size:13.33333333px;stroke-width:75.59055118;stroke-linecap:round">
+     style="fill:#ffffff;font-size:5.33333333px;stroke-width:0.75590551;stroke-linecap:round;-inkscape-font-specification:'Noto Sans CJK SC';font-family:'Noto Sans CJK SC';line-height:1.2">
     <group
-       width="2546"
-       height="1569"
-       x="4"
-       y="21"
+       width="2554"
+       height="1577"
+       x="0"
+       y="17"
        maximized="1"
        fullscreen="0"
        id="geometry" />
@@ -977,7 +1009,7 @@
      id="toolbox"
      icononly="1"
      secondary="1"
-     simplesnap="1"
+     simplesnap="0"
      small="1">
     <group
        id="tools"
@@ -1090,5 +1122,14 @@
        symbolicSuccessColor="10029823"
        symbolicWarningColor="4279865599"
        symbolicErrorColor="10086143" />
+    <group
+       id="Adwaita"
+       symbolicBaseColor="4008635647"
+       symbolicSuccessColor="648766207"
+       symbolicWarningColor="4118348031"
+       symbolicErrorColor="3422552319" />
   </group>
+  <group
+     id="gradient-edit"
+     stoplist="1" />
 </inkscape>
